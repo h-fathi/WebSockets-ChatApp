@@ -6,10 +6,10 @@ This is a chat app developed in order to demonstrate the use of WebSockets for a
 
 The application was developed in ASP.NET Net 5, using MS Visual Studio 2019. Only native libraries are used, since our goal is to demonstrate the low-level functioning of WebSockets.
 
-Basic functioning
+# Basic functioning
 A chat service consists in a server that allows simultaneous connection from different clients for message exchange. Before connecting, the user must choose a unique nickname and then enter a chat room, where they will be able to send and receive messages to other connected users.
 
-Instructions
-Download and build the solution with MS Visual Studio. Open a console window, navigate to the project folder and run command dotnet run. Open file .\Client\index.html and use the application. You can open several instances of clients, each one in a different browser tab.
+# Instructions
+Download and build the solution with MS Visual Studio. Open a console window, navigate to the project folder and run command dotnet run. Open file `.\Client\index.html` and use the application. You can open several instances of clients, each one in a different browser tab.
 
-The client is configured to connect to port 5000 in localhost; see file .\Client\index.html. In case of any troubles, check if server and client are using the same port.
+The client is configured to connect to port 58078 in `localhost`; see file `.\Client\index.html`. In case of any troubles, check if server and client are using the same port.
