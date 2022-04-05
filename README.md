@@ -2,7 +2,7 @@
 Chat App with WebSockets in ASP.NET Core
 
 
-This is a chat app developed in order to demonstrate the use of WebSockets for a real-time application. It has a WebSocket middleware implemented in ASP.NET Core and a very simple client in HTML and vanilla JavaScript.
+This is a chat app developed in order to demonstrate the use of WebSockets for a real-time application. It has a WebSocket middleware implemented in ASP.NET Core and a very simple client in HTML and JavaScript.
 
 The application was developed in ASP.NET Net 5, using MS Visual Studio 2019. Only native libraries are used, since our goal is to demonstrate the low-level functioning of WebSockets.
 
